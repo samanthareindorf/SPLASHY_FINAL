@@ -1,0 +1,98 @@
+ 
+
+
+.nav-link:hover {
+    background-color:rgb(165, 15, 15) !important
+}
+
+.nav-link .fa {
+    transition: all 1s
+}
+
+.nav-link:hover .fa, .fas {
+    transform: rotate(360deg)
+}
+
+
+#theatre:hover{
+    transition: font-size 35px ease-in-out;
+}
+
+
+
+.navbar-text button{
+    border-radius: 10px;
+}
+
+button:hover{
+    color: blue;
+}
+
+
+/*post-section*/
+
+/* #mainF{
+    width: 600px !important;
+    height: 280px !important;
+  
+
+} */
+
+button .btn .btn-success{
+    margin-bottom: 4px;
+}
+
+/* .container{
+    height: 200px;
+} */
+
+.container-outer{
+    background-color: rgb(165, 15, 15);
+    width: 600px;
+    height: 330px;
+    margin-top: -1250px;
+    border-radius: 10px;
+    margin-left: 400px;
+    
+}
+
+/*for the posts of others*/
+
+.container-others{
+    background-color: rgb(148, 55, 55);
+    width: 300px;
+    height: 580px;
+    display: inline-flex;
+    margin-left: 400px;
+}
+
+
+
+
+
+
+
+
+
+body{
+    background-color: wheat;
+}
+
+.like-container:hover i{
+    color: crimson;
+    transition: .1s;
+
+}
+
+small{
+    color: red;
+}
+
+#sticky{
+    position: sticky;
+    --offset: var(--space);
+}
+
+#flex{
+    display:inline-table;
+}

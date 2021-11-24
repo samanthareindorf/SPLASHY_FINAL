@@ -1,0 +1,48 @@
+@import url('../PAGE/home.css');
+
+h4{
+    margin-top: -950px;
+    margin-left: 790px ;
+    background-color: tomato;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: larger;
+    width: 350px;
+    height: 70px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 360px;
+    margin-top: -950px;
+  }
+
+.btn:hover {
+    background-color: RoyalBlue;
+  }
+
+
+  /*media screen*/ 
+  @media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+
+    h4{
+        font-size: medium;
+        margin-left: -200px ;
+        width: 150px;
+    }
+}

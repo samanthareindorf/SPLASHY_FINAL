@@ -1,0 +1,162 @@
+
+@import url('../PAGE/home.css');
+
+
+
+/*Leo Club*/
+.eventBox1{
+   width: 250px;
+   height: 200px;
+   border-radius: 15px;
+   background-color:rgb(177, 130, 238);
+   color: white;
+   font-weight: bold;
+   /* margin-top: 0px; */
+   margin-left: 800px;
+   margin-top: -760px;
+   margin-bottom: 610px;
+
+
+}
+
+/*Leo Club Buttons*/
+
+#Box1Button1{
+   text-align: center;
+   margin-left: 815px;
+   /* margin-top: -300px; */
+ 
+
+}
+
+#Box1Button1, #Box1Button{
+margin-top: -1190px;
+}
+
+
+/*Developer Students*/
+
+.eventBox3{
+   width: 250px;
+   height: 200px;
+   border-radius: 15px;
+   background-color:rgb(235, 89, 21);
+   color: white;
+   font-weight: bold;
+   margin-top: -250px;
+   margin-left: 500px;
+
+
+}
+
+/*buttons for DSC*/
+#Box3Button1{
+   text-align: center;
+   margin-left: 520px;
+
+}
+
+
+/*Developer Students buttons*/
+
+
+/*Jforce*/
+.eventBox2{
+   width: 250px;
+   height: 200px;
+   border-radius: 15px;
+   background-color:green;
+   color: white;
+   font-weight: bold;
+   margin-top: -850px;
+   margin-left: 190px;
+}
+
+/*buttons for Jforce*/
+#Box2Button1{
+      text-align: center;
+      margin-left: 200px;
+
+}
+
+
+/*Ashesi Business Club*/
+
+.eventBox5{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    background-color:violet;
+    color: white;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 200px;
+
+
+ }
+
+ 
+/*Buttons for Ashesi Business Club*/
+ #Box5Button1{
+    margin-left: 212px;
+
+ }
+
+   /*all clubs text*/
+ .Box2Text, .Box1Text,  .Box1Text,.Box5Text, .Box6Text, .Box7Text, .Box3Text{
+    text-align: center;
+    padding: 65px;
+}
+
+
+
+
+/* Ashesi Real Estate Club*/
+
+ .eventBox6{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: sandybrown;
+    color: white;
+    font-weight: bold;
+    margin-top: -259px;
+    margin-left: 480px;
+
+ }
+ 
+/*Buttons for Ashesi Real Estate Club*/
+
+ #Box6Button1{
+    margin-left: 495px;
+     
+ 
+ }
+
+ 
+/*Buttons for Ashesi TedX Club*/
+
+ .eventBox7{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    background-color:rgb(158, 24, 24);
+    color: white;
+    font-weight: bold;
+    margin-top: -250px;
+    margin-left: 800px;
+
+ }
+ 
+/*Buttons for Ashesi TedX Club*/
+
+ #Box7Button1{
+    margin-left: 815px;
+     
+ }
+
+body{
+   margin-bottom: 500;
+   background-color: wheat;
+}
+
