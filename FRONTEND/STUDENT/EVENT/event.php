@@ -44,6 +44,7 @@ $events=showEvents();
         <thead class="thead-dark">
             <tr>
                 <!--outline for table--> 
+                <th scope="col">Event Organizer</th>
                 <th scope="col">Event Name</th>
                 <th scope="col">Event Date</th>
                 <th scope="col">Event Description</th>
@@ -63,6 +64,7 @@ $events=showEvents();
                 
 
                 <tr>
+                     <td><li class="list_group_item"><?=$value['eventOrganizer']?></td>
 
                     <td><li class="list-group-item"><?=$value['eventName']?></td>
 
@@ -73,8 +75,10 @@ $events=showEvents();
 
                     <td colspan=""><li class="list-group-item"><?=$value['event_time']?></td>
 
+                  
+
                     <td>
-                         
+                         <button onclick="addToCalendar()" class="btn btn-success">Add to Calendar</button>
 
 
                      </td>
@@ -99,7 +103,7 @@ $events=showEvents();
     <script>
         function addToCalendar()
         {
-            window.open('calendarPage2.html');
+            window.open('openCal.php');
         }
     </script>
 </body>
