@@ -15,7 +15,7 @@
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
           <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
-          <link rel="stylesheet" href="../STUDENT/PAGE/home.css">
+          
           
           <script src="../STUDENT/PAGE/home.js"></script>
 
@@ -60,7 +60,7 @@
         <a class="nav-link" href="careerF.php">Faculty</a>
       </li>
       <li class="nav-item p-15">
-        <a class="nav-link" href="../STUDENT/EVENT/event.php">Students</a>
+        <a class="nav-link" href="../STUDENT/PAGE/home.php">Students</a>
       </li>
 
     </ul>
@@ -96,20 +96,27 @@
                     <br>
                     <br>
                     <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                   
                     
                     
 
 </div>
 <!--code for form-->
      
-  <div  id="cover" class="min-vh-100">
+  <section style="margin-top: -600px;" id="cover" class="min-vh-100">
     <div id="cover-caption" >
         <div class="container">
             <div class="row text-white">
                 <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
                     <h1 class="">Event Registration Form</h1>
                     <div class="px-2"><br>
-                        <form  id="onlyCareer" action="../../BACKEND/event_create.php" class="justify-content-center" method="POST">
+                        <form action="../../BACKEND/event_create.php" class="justify-content-center" method="POST">
                             <div class="form-group">
                               <label class="sr-only">Faculty Category</label>
                             <select class="form-select" name="dropdown">
@@ -130,6 +137,8 @@
                             <label>Event Date:</label>
                             <input type="date" name="Day" value="" class="form-control">
 
+                            </div>
+
                             <div class="form-group">
                             <label>Event Start Time:</label>
                             <input type="time" name="startTime" class="form-control">
@@ -142,7 +151,7 @@
 
                             </div>
 
-                            </div>
+                            
                             <button type="submit" name="SUBMIT" class="btn btn-primary"><i class="fa fa-send-o">Post Event</i></button>
                             <span><button onclick="openViewEventsPage()" class="btn btn-secondary"><i class="fa fa-eye">View Created Event</i></button></span>
                         </form>
@@ -151,7 +160,7 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 
 <!--javascript to open view Events Page--> 
