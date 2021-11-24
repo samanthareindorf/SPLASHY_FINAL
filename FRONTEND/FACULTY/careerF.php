@@ -51,13 +51,16 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active p-15">
-        <a class="nav-link" href="../../../HOME/index.html">Splashy <span class="sr-only">(current)</span><i class='fas fa-water'></i></a>
+        <a class="nav-link" href="../../HOME/index.html">Splashy <span class="sr-only">(current)</span><i class='fas fa-water'></i></a>
       </li>
       <li class="nav-item p-15">
         <a class="nav-link" href="../../seedMain/seedJournal.html">Seed Journal</a>
       </li>
       <li class="nav-item p-15">
-        <a class="nav-link" href="../../FACULTY/careerF.php">Faculty</a>
+        <a class="nav-link" href="careerF.php">Faculty</a>
+      </li>
+      <li class="nav-item p-15">
+        <a class="nav-link" href="../STUDENT/EVENT/event.php">Students</a>
       </li>
 
     </ul>
@@ -99,7 +102,7 @@
 </div>
 <!--code for form-->
      
-  <div  id="cover" style="margin-top: -450px;" class="min-vh-100">
+  <div  id="cover" class="min-vh-100">
     <div id="cover-caption" >
         <div class="container">
             <div class="row text-white">

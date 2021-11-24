@@ -15,7 +15,7 @@
 }
 
 /* only used for background overlay not needed for centering */
-form {
+form::before{
   content: '';
   height: 100%;
   left: 0;
