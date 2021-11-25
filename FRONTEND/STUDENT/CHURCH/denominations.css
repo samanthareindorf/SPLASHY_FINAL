@@ -1,0 +1,7 @@
+@import url('../ENTERCOM/entcom.css');
+@import url('../PAGE/home.css');
+
+.container img{
+    width: 200px;
+    height: 105px;
+}

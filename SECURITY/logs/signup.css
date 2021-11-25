@@ -1,0 +1,33 @@
+#outer{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    border-radius: 7px;
+    background-color: rgb(170, 114, 114);
+    width: 500px;
+    height: 898px;
+}
+
+
+h3{
+    text-align: center;
+    align-items: center;
+}
+label{
+    font-weight: bold;
+}
+
+ a{
+    text-decoration: none;
+    
+}
+
+small{
+    font-weight: bold;
+    color: rgb(175, 19, 19);
+}
+
+#success{
+    color: seagreen;
+    font-weight: bold;
+}

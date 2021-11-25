@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+}
+
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+.btn:hover {
+    background-color: RoyalBlue;
+  }
+
+#dropZone{
+    border: 3px dashed #0088cc;
+    padding: 50px;
+    width: 500px;
+    height: 350px;
+    margin: 70px;
+    margin-left: 130px !important
+}
+
+#files{
+    border: 1px dotted #0088cc;
+    padding: 20px;
+    width: 200px;
+    display:inline-flex;
+
+}
+
+#error{
+    color: red;
+}
+
+#progress{
+    color: green;
+}
+
+.uploader {
+    position:relative; 
+    overflow:hidden; 
+    width:300px; 
+    height:350px;
+    background:#f3f3f3; 
+    border:2px dashed #e8e8e8;
+}
+
+#filePhoto{
+    position:absolute;
+    width:300px;
+    height:400px;
+    top:-50px;
+    left:0;
+    z-index:2;
+    opacity:0;
+    cursor:pointer;
+}
+
+.uploader img{
+    position:absolute;
+    width:302px;
+    height:352px;
+    top:-1px;
+    left:-1px;
+    z-index:1;
+    border:none;
+}

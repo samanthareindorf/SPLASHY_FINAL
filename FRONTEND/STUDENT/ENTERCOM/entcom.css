@@ -1,0 +1,123 @@
+/* @import url('../PAGE/home.css'); */
+
+
+
+
+/*for outline of div*/
+.entComEvent1{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    background-color:rgb(36, 30, 30);
+    color: white;
+    font-weight: bold;
+    margin-top: -500px;
+    margin-left: 120px;
+
+
+ }
+
+ .entComEvent1:hover{
+    cursor: pointer;
+    background-color:black;
+}
+
+
+ /*for  1st entcom event button*/
+ #entView1{
+ margin-left: 105px;
+}
+
+
+
+ /*for all text*/
+
+ .entComText1, .entComText2, .entComText3, .entComText4{
+    text-align: center;
+    padding: 65px;
+}
+
+
+/*Second event outline*/
+
+.entComEvent2{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    background-color:saddlebrown;
+    color: white;
+    font-weight: bold;
+    margin-top: -300px;
+    margin-left: 700px;
+
+}
+
+.entComEvent2:hover{
+    cursor: pointer;
+    background-color:sienna;
+}
+
+
+#entView2{
+    margin-left: 740px;
+ }
+
+
+
+ /*Third event outline*/
+
+.entComEvent3{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    background-color:rgb(131, 10, 10);
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 120px;
+
+}
+/*hovering effect*/
+
+.entComEvent3:hover{
+    cursor: pointer;
+    background-color:rgb(148, 26, 26);
+}
+
+
+/*for button*/
+#entView3{
+    margin-left: 135px;
+ }
+
+
+
+ /*Fourth event outline*/
+
+.entComEvent4{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    background-color:green;
+    color: white;
+    font-weight: bold;
+    margin-top: -299px;
+    margin-left: 700px;
+
+}
+/*hovering effect*/
+
+.entComEvent4:hover{
+    cursor: pointer;
+    background-color:rgb(13, 71, 13);
+}
+
+
+/*for button*/
+#entView4{
+    margin-left: 757px;
+ }
+
+ body{
+     background-color: rgb(247, 211, 144);
+ }
